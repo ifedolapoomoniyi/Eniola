@@ -1,0 +1,18 @@
+.About{
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.about-text p:nth-child(1){
+    font-weight: 700;
+    font-family: roboto;
+    font-style: italic;
+    color: rgba(71, 35, 69, 1);
+}
+
+.About img{
+    height: 80vh;
+    padding: 3rem;
+}

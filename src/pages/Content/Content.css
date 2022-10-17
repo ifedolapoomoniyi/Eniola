@@ -1,0 +1,21 @@
+.content-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 3rem;
+    padding-bottom: 4rem;
+
+}
+
+.content-about h3{
+    text-align: center;
+}
+
+.content-about img{
+    height: 100px;
+}
+
+.padding{
+    padding: 1rem 0;
+}

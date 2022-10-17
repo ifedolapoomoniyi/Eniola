@@ -1,0 +1,50 @@
+.TopDescrip{
+    position: relative;
+    color: white;
+}
+
+.top-image img{
+    width: 100%;
+    height: 500px;
+}
+
+.top-texts{
+    position: absolute;
+    top: 3rem;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.top-texts h3{
+    font-style: cursive;
+    font-size: 30px;
+    padding: 2rem;
+}
+
+.top-comments{
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    padding-top: 4rem;
+    border-radius: 8px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 14px;
+}
+
+.commenter{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.commenter-pic{
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+}

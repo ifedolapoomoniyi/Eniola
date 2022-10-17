@@ -1,5 +1,6 @@
 import React from 'react'
-import UilEnvelope from '@iconscout/unicons'
+import {UilEnvelope, UilYoutube, UilInstagram, UilTwitter, UilLinkedin} from '@iconscout/react-unicons';
+import './Footer.css'
 
 const Footer = () => {
   return (
@@ -11,7 +12,11 @@ const Footer = () => {
             </a>
         </div>
 
-        <div className="socials">
+        <div className="footer-socials">
+          <div><UilYoutube/></div>
+          <div><UilLinkedin/></div>
+          <div><UilInstagram/></div>
+          <div><UilTwitter/></div>
           
         </div>
     </div>

@@ -1,0 +1,20 @@
+.Footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    border-top: 3px solid rgba(71, 35, 69, 1);
+    color: rgba(71, 35, 69, 1);
+}
+
+.footer-email a{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.footer-socials{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}

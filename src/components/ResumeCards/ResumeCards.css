@@ -1,0 +1,29 @@
+:root{
+    --primary-color: rgba(101, 24, 98, 1);
+}
+
+.ResumeCards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.card-details{
+    background-color: rgba(101, 24, 98, 1);
+    color: white;
+    box-sizing: border-box;
+    padding: 3rem;
+    height: 220px;
+    width: 700px;
+}
+
+.card-img{
+    height: 220px;
+}
+
+.ResumeCards img{
+    width: 300px;
+}
+

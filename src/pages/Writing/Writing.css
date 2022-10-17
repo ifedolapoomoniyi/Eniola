@@ -1,0 +1,33 @@
+.writer-about{
+    padding: 2rem 2rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+
+}
+
+
+.writer-resume{
+    position: relative;
+    border: 1px solid;
+    border-bottom: none;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.absolute-resume{
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    font-size: 20px;
+    color: var(--primary-color);
+    background-color: white;
+    padding: 0 0.5rem;
+}

@@ -64,16 +64,17 @@ const Writing = () => {
           <ResumeCards
             src={Resume2}
             title='CONTENT WRITER FOR TITAN UPDATES'
-            timeline='Freelance contract'  
-            details1='I wrote an ad campaign to generate leads.'
-          />
+            timeline='Freelance contract'
+          >
+            <li>I wrote an ad campaign to generate leads.</li>
+          </ResumeCards>
 
           <ResumeCards
             src={Resume3}
             title="CONTENT WRITER FOR LOVE LETTERS NEWSLETTER"
             timeline="June, 2022 till present"
-            details1='I wrote over 30 articles containing over 500 words each covering topics like life, motivation, business and more.'
             >
+              <li>I wrote over 30 articles containing over 500 words each covering topics like life, motivation, business and more.</li>
               <li>Grew the list by 76% in 7 months</li>
           </ResumeCards>
 

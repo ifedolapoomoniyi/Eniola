@@ -19,3 +19,7 @@
 .padding{
     padding: 1rem 0;
 }
+
+.padding img{
+    max-width: 100%;
+}

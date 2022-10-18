@@ -1,0 +1,54 @@
+.marketing-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+    padding: 3rem;
+}
+
+.marketing-about > img{
+    height: 100px;
+    width: 100px;
+}
+
+.bg-div{
+    position: relative;;
+}
+
+.bg-div div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bg-div img{
+    width: 80vw;
+    height: 25vh;
+    object-fit: cover;
+    object-position: right;
+}
+
+.qualifications{
+    text-align: center;
+    font-size: 22px;
+    color: var(--text-color);
+    font-family: cursive;
+    padding: 3rem 2rem;
+}
+
+.vector-imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.vector-imgs img{
+    height: 300px;
+}
+

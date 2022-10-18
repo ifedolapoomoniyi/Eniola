@@ -9,12 +9,11 @@ const ResumeCards = (props) => {
             <img src={props.src} alt="" className="card-img"/>
         </div>
         <div className="card-details">
-          <div>
+          <div className='details-flexer'>
             <div>{props.title}</div>
             <div>{props.timeline}</div>
           </div>
           <ul>
-            <li>{props.details1}</li>
             {props.children}
           </ul>
         </div>

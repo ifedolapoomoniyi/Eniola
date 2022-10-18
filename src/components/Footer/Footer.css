@@ -18,3 +18,9 @@
     flex-direction: row;
     gap: 2rem;
 }
+
+@media screen and (max-width: 760px) {
+    .Footer{
+        flex-direction: column;
+    }
+}

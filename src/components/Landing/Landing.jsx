@@ -5,7 +5,7 @@ import './Landing.css'
 const landing = () => {
   return (
     <div className="Landing">
-        <img src={EniolaLanding} alt="A Beautiful Picture of Eniola Arogunbiade" />
+        <img src={EniolaLanding} alt="Stunning Eniola Arogunbiade" />
         <div className="overlay"></div>
 
         <div className="landing-text">

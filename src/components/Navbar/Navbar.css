@@ -96,6 +96,7 @@ a{
 
 #dropdown{
     display: none;
+    transition: 0.3s all;
 }
 
 #dropdown.active{

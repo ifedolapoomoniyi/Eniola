@@ -35,7 +35,7 @@ const Marketing = () => {
          />
 
          <div className="marketing-about">
-            <img src={EniMarketing} alt="A beautiful Picture of Eniola Agunbiade" />
+            <img src={EniMarketing} alt="Eniola Agunbiade" />
             <h3>ENIOLA AS A DIGITAL MARKETER</h3>
             <div className='bg-div'>
                 <img src={Bg} alt="" />

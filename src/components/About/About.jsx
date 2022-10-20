@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import EniSitting from '../../imgs/EniSitting.png'
+import EniSitting from '../../imgs/EniNew.png'
 
 const About = () => {
   return (
@@ -21,7 +21,7 @@ const About = () => {
             <p>One of her core values is consistency and it has been the bedrock for her progress so far. She is a lover of God and she enjoys dancing to music and watching comedy videos by kiekie.
             </p>
         </div>
-
+        
         <img src={EniSitting} alt="" />
     
 

@@ -1,14 +1,17 @@
 import React from 'react'
-import Eni from '../../imgs/Eni.png'
+import EniolaLanding from '../../imgs/EniolaLanding.png'
 import './Landing.css'
 
 const landing = () => {
   return (
     <div className="Landing">
-        <img src={Eni} alt="A Beautiful Picture of Eniola Arogunbiade" />
+        <img src={EniolaLanding} alt="A Beautiful Picture of Eniola Arogunbiade" />
+        <div className="overlay"></div>
+
         <div className="landing-text">
             <div className="landing-name">
-                Eniola <span>Agunbiade</span>
+                <div className='landing-big-font'>ENIOLA </div>
+                <span className='landing-normal-font'>AGUNBIADE</span>
             </div>
             <div className='landing-position'>
                 Project Manager

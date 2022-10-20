@@ -2,3 +2,7 @@
     --primary-color: rgba(101, 24, 98, 1);
     --text-color: rgba(71, 35, 69, 1);
 }
+
+.fontface-tahu{
+    font-family: 'Tahu';
+}

@@ -11,7 +11,7 @@ const ResumeCards = (props) => {
         <div className="card-details">
           <div className='details-flexer'>
             <div>{props.title}</div>
-            <div>{props.timeline}</div>
+            <div className='timeline'>{props.timeline}</div>
           </div>
           <ul>
             {props.children}

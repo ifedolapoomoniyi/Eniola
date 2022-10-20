@@ -39,10 +39,14 @@
     gap: 1rem;
 }
 
+.timeline{
+    opacity: 0.8;
+}
+
 @media screen and (max-width: 760px) {
     .card-details{
         padding: 1rem;
-        width: 100%;
+        width: 300px;
         position: relative;
         top: -4px;
         height: auto;

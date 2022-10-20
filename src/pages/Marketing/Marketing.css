@@ -52,3 +52,8 @@
     height: 300px;
 }
 
+@media  screen and (max-width: 400px) {
+    .bg-div img{
+        height: 300px;
+    }
+}

@@ -3,6 +3,8 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 5px 20px 5px 20px;
+    z-index: 20;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 a{
@@ -11,12 +13,24 @@ a{
 }
 
 .navbar-name{
-    padding: 5px;
+    z-index: 300;
+}
+
+.big-font{
+    font-size: 38px;
+    font-weight: 400;
+    height: 36px;
+}
+
+.normal-font{
+    padding: 0px;
+    letter-spacing: 7px;
 }
 
 .navbarlink{
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar-routes{
@@ -26,13 +40,15 @@ a{
 }
 
 .navbar-link{
-    padding: 5px
+    padding: 5px;
+    color: rgba(71, 35, 69, 0.6);
 }
 
 .navbar-link:hover{
-    border: 1px solid;
+    border: 1px solid rgba(71, 35, 69, 0.6);
     padding: 4px;
     background: #ecebeb;
+    color: rgba(71, 35, 69, 0.6);
 }
 
 .hamburger{
@@ -48,6 +64,45 @@ a{
     background-color: black;
 }
 
+#dropdown{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 0.5rem;
+    transition: all 0.4s;
+    text-align: center;
+}
+
+.resume-link{
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    color: rgba(71, 35, 69, 0.6);
+}
+
+.resume-link span{
+    padding: 5px;
+    display: flex;
+    margin: auto;
+}
+
+.resume-link:hover{
+    border: 1px solid rgba(71, 35, 69, 0.6);
+    padding: 1px;
+}
+.resume-link:active{
+    transform: scale(0.9);
+}
+
+#dropdown{
+    display: none;
+}
+
+#dropdown.active{
+    display: contents;
+    transition: 0.3s all;
+}
+
 
 @media screen and (max-width: 768px) {
     .navbar-routes{
@@ -55,20 +110,45 @@ a{
         position: fixed;
         left: -120%;
         height: 100vh;
-        width: 100vw;
         border-radius: 5px;
-        text-align: center;
+        text-align: left;
         transition: 0.3s;
         background-color: #f2f2f2;
         padding: 15px;
-        justify-content: center;
+        padding-top: 100px;
+        z-index: 100;
+        align-items: flex-start;
 
     }   
     
     .navbar-routes.active{
         left: 0;
+        bottom: 0;
+        top: 0;
+        right: 30%;
     }
 
+    #dropdown{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        gap: 0.5rem;
+        transition: all 0.4s;
+        text-align: left;
+        padding-bottom: 10px; 
+        padding-left: 20px;
+    }
+
+    #dropdown{
+        display: none;
+    }
+    
+    #dropdown.active{
+        display: flex;
+        transition: 0.3s all;
+        padding-left: 20px;
+    }
+    
     .hamburger{
         display: block;
         cursor: pointer;
@@ -90,4 +170,7 @@ a{
         transform: translateY(-8px) rotate(-45deg);
     }
     
+    #dropdown{
+        flex-direction: column;
+    }
 }

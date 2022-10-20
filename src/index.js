@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
-import Tahu from './tahu/Tahu.ttf'
+// eslint-disable-next-line
+import Tahu from './tahu/Tahu.ttf' 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

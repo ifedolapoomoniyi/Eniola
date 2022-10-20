@@ -29,7 +29,7 @@ const Writing = () => {
 
         <div className="writer-about">
           <div className="writer-about-img">
-            <img src={small_eni} alt="Beautiful Picture of Eni" />
+            <img src={small_eni} alt="Beautiful Eni" />
           </div>
           <h2>ENIOLA AS A WRITER</h2>
           <p>

@@ -54,10 +54,10 @@ const Navbar = () => {
             <Link to='/' className="navbar-link">BIO</Link>
             <div className="resume-link">RESUME<span><UilAngleDown/></span></div>
             <div id='dropdown'>
+              <div><Link to='/Marketing'>DIGITAL MARKETING</Link></div>
+              <div><Link to='/Content'>CONTENT CREATION</Link></div>
               <div><Link to='/Project'>PROJECT MANAGEMENT</Link></div>
               <div><Link to='/Writing'>WRITING</Link></div>
-              <div><Link to='/Content'>CONTENT CREATION</Link></div>
-              <div><Link to='/Marketing'>DIGITAL MARKETING</Link></div>
             </div>
             <a href="#contact"  className="navbar-link">CONTACT US</a>
         </div>

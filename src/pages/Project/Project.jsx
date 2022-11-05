@@ -11,7 +11,7 @@ const Project = () => {
     <div className="Project">
         <Navbar/>
         <TopDescrip
-         title="PROJECT MANAGEMENT`"
+         title="PROJECT MANAGEMENT"
          src={PmImg}
          name="Joy Gumz"
          comments="“Operations keeps the lights on, strategy provides a light at the end of the tunnel, but project management is the train engine that moves the organization forward.”"

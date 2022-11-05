@@ -20,3 +20,9 @@
 .project-about h3{
     text-align: center;
 }
+
+@media  screen and (max-width: 767px) {
+    .project-about{
+        padding: 2rem 1.5rem;
+    }
+}

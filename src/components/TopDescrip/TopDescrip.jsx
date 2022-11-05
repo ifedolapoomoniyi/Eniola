@@ -9,9 +9,9 @@ const TopDescrip = (props) => {
             
         </div>
         <div className="top-texts">
-            <h3>{props.title}</h3>
+            <h3 className='fontface-tahu'>{props.title}</h3>
             <div className="top-comments">
-                <div>{props.comments}</div>
+                <div className='line-height'>{props.comments}</div>
                 <div className='commenter'>{props.name}</div>
                 <div className='commenter-pic'>
                     <img src={props.picture} alt="" />

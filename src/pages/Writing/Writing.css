@@ -1,5 +1,9 @@
+.Writing{
+    background-image: url(../../imgs/EniBack.jpg);
+}
+
 .writer-about{
-    padding: 4rem 2rem;
+    padding: 5rem 2rem;
     padding-bottom: 4rem;
     display: flex;
     flex-direction: column;

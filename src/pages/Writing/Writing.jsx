@@ -16,7 +16,7 @@ const Writing = () => {
     <div className="Writing">
         <Navbar/>
         <TopDescrip 
-            title= "Writing"
+            title= "WRITING"
             src= {WritingImg}
             name= 'Olayiwola Peter'
             picture={Peter}

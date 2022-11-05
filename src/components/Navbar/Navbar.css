@@ -37,6 +37,7 @@ a{
     display: flex;
     flex-direction: row;
     gap: 20px;
+    position: relative;
 }
 
 .navbar-link{
@@ -74,10 +75,11 @@ a{
 }
 
 .resume-link{
-    padding: 2px;
     display: flex;
+    height: 30px;
     align-items: center;
     color: rgba(71, 35, 69, 0.6);
+
 }
 
 .resume-link span{
@@ -97,10 +99,21 @@ a{
 #dropdown{
     display: none;
     transition: 0.3s all;
+    position: absolute;
+    left: 90px;
+    top: 29px;
+    z-index: 20;
+    background: #FCFCFC;
+    padding: 0.5rem;
+}
+
+#dropdown div{
+    display: block;
 }
 
 #dropdown.active{
-    display: contents;
+    display: flex;
+    flex-direction: column;
     transition: 0.3s all;
 }
 
@@ -173,5 +186,16 @@ a{
     
     #dropdown{
         flex-direction: column;
+        position: static;
+        top: -10px;
+        background-color: #f2f2f2;
+        padding: 0;
+    }
+
+    .resume-link{
+        padding: 2px;
+        display: flex;
+        align-items: center;
+        color: rgba(71, 35, 69, 0.6);
     }
 }

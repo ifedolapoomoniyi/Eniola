@@ -6,3 +6,7 @@
 .fontface-tahu{
     font-family: 'Tahu';
 }
+
+p{
+    line-height: 25px;
+}

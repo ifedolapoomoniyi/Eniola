@@ -19,9 +19,9 @@
 }
 
 .top-texts h3{
-    font-style: cursive;
     font-size: 30px;
     padding: 2rem;
+    word-spacing: 1rem;
 }
 
 .top-comments{
@@ -48,4 +48,8 @@
     top: -35px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.line-height{
+    line-height: 17px;
 }

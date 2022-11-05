@@ -1,3 +1,7 @@
+.Content{
+    background-image: url(../../imgs/EniBack.jpg);
+}
+
 .content-about{
     display: flex;
     flex-direction: column;

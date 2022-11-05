@@ -1,3 +1,7 @@
+.Marketing{
+    background-image: url(../../imgs/EniBack.jpg);
+}
+
 .marketing-about{
     display: flex;
     flex-direction: column;

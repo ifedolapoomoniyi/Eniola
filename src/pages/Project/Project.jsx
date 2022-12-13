@@ -21,7 +21,7 @@ const Project = () => {
             <img src={EniWriter} alt="Beautiful Picture of Eniola Agunbiade" />
             <h3>ENIOLA AS A PROJECT MANAGER</h3>
             <div>
-                <p>Eniola started her journey into the tech world in April, 2022 when she got awarded the Google Roothub scholarship for Project management. She completed the course in 4 months and got her certificate. <a href="placeholder">Click here to view certificate</a></p>
+                <p>Eniola started her journey into the tech world in April, 2022 when she got awarded the Google Roothub scholarship for Project management. She completed the course in 4 months and got her certificate. <a href="https://drive.google.com/file/d/102YUGkBgGn4phGoTyrjSzjBKoSKQmbJP/view?usp=drivesdk">Click here to view certificate</a></p>
                 <p>
                 She went on to serve as a Product management intern where she has been applying the knowledge she has gained in real life scenarios.
                 </p>

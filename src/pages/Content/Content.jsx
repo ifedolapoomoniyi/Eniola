@@ -23,7 +23,7 @@ const Content = () => {
          />
          
          <div className="content-about">
-            <img src={EniContent} alt="A Beautiful Picture of Eniola Agunbiade" />
+            <img src={EniContent} alt="Eniola Agunbiade" />
             <h3>ENIOLA AS A CONTENT CREATOR</h3>
             <div>
                 <p>In 2021, Eniola started her Youtube channel called Eniola Divine and she started posting videos on fashion, beauty and lifestyle teaching herself to edit, vlog and post content. In 2022, Eniola added content from her experience in Medical School to her channel.</p>
